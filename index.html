@@ -135,6 +135,7 @@ for (let i = 1; i <= 24; i++) {
   div.className = "question";
   div.innerHTML = `
     <h3>Presentation ${i}</h3>
+    <p>Write one sentence that either 1) PERSONAL CONNECTION: describes how something in the presentation connects to your interests, ideas, experiences, thoughts, or feelings OR 2) SPECULATIVE ARTWORK: speculates about an artwork that you would make inspired by something in the presentation.</p>
     <textarea id="text-${i}" placeholder="Write one sentence..."></textarea><br>
     <button onclick="submitAnswer(${i})">Submit</button>
     <div class="responses" id="responses-${i}"></div>
